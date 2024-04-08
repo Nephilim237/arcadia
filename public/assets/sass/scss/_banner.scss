@@ -1,0 +1,32 @@
+section.a-banner {
+    position: relative;
+  min-height: 35vw;
+  text-align: center;
+  background: url("../images/banner/main-banner.jpg") center center no-repeat;
+  background-size: cover;
+
+  &::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(transparent, transparentize($rich-black, .65));
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.a-banner {
+  .banner-text {
+    position: relative;
+    width: 100%;
+
+    h1 {
+
+        color: $white;
+        font-family: $kaushan-script;
+        font-weight: 600;
+        font-size: 6rem;
+    }
+  }
+}

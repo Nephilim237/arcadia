@@ -1,0 +1,21 @@
+{
+  "name": "arcadia-ui",
+  "version": "1.0.0",
+  "description": "Conception graphique du site web du zoo Arcadia du projet ECF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass -w public/assets/sass/scss/styles.scss public/assets/css/styles.css --source-map",
+    "sass-compile": "sass public/assets/sass/scss/styles.scss public/assets/css/styles.css --source-map",
+    "sass-compile-bootstrap": "sass public/assets/sass/scss/bootstrap.scss public/assets/css/bootstrap.css --source-map"
+  },
+  "keywords": [
+    "ui",
+    "ecf"
+  ],
+  "author": "JM",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.74.1"
+  }
+}
