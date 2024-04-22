@@ -1,16 +1,24 @@
 @import "functions";
 
 // Default variable overrides
-$primary: #DCED31;
+$primary: #dced31;
 $success: #728309;
-$secondary: #0F3F00;
-$warning: #8D5923;
-$dark: #0B091E;
+$secondary: #0f3f00;
+$warning: #8d5923;
+$dark: #0b091e;
 
 $btn-border-radius: 3.125rem;
 $btn-border-radius-sm: $btn-border-radius;
 $btn-border-radius-lg: $btn-border-radius;
 
+$pagination-color: $success;
+$pagination-hover-color: $success;
+$pagination-hover-bg: transparentize($success, 0.75);
+$pagination-hover-border-color: transparentize($success, 0.65);
+$pagination-border-color: transparentize($success, 0.35);
+$pagination-active-color: #ffffff;
+$pagination-active-bg: $success;
+$pagination-active-border-color: $success;
 
 @import "variables";
 @import "variables-dark";
